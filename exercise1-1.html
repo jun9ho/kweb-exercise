@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>KWEB Survey Page</title>
+</head>
+
+<body>
+    <div >
+        <h1>KWEB Survey Page</h1>
+        <img src="./logo.png" alt="KWEB Logo" width=360 height=100>
+        <p><a href="https://kwebofficial.com/" title="KWEB Homepage" target="_blank">KWEB Homepage</a></p>
+    </div>
+    <div class="text-question">
+        <p><b>1. Write your name</b></p>
+        <input type="text" name="username">
+    </div>
+    <div class="text-question">
+        <p><b>2. Write your student number</b></p>
+        <input type="text" name="studentnumber">
+    </div>
+    <div class="radio-question">
+        <p><b>3. Select your member level.</b></p>
+        <label><input type="radio" name="level" value="Admin">Admin</label>
+        <label><input type="radio" name="level" value="Intern">Intern</label>
+        <label><input type="radio" name="level" value="Qualified">Qualified</label>
+    </div>
+    <div class="check-question">
+        <p><b>4. Select all fields you are interested in.</b></p>
+        <label><input type="checkbox" name="Front-end" value="type">Front-end</label>
+        <label><input type="checkbox" name="Back-end" value="type">Back-end</label>
+        <label><input type="checkbox" name="Web crawling" value="type">Web crawling</label>
+        <label><input type="checkbox" name="Web security" value="type">Web security</label>
+        <label>
+            <span><input type="checkbox" name="Etcetera" value="type">Etcetera </span>
+            <span><input type="text"></span>
+        </label>
+    </div>
+    <div class="textarea-question">
+        <p><b>5. Give us your overall evaluation and feedback about the previous study.</b></p>
+        <textarea style="resize:none;" rows="30" cols="150"></textarea>
+        <p><input type="submit" value="Submit your answers"></p>
+    </div>
+</body>
+
+</html>
