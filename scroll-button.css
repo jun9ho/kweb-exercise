@@ -1,0 +1,26 @@
+#scroll-button
+{
+    font-size:15px;
+    position:fixed;
+    left: 500px;
+    bottom: 30px;
+    background-color:darkblue;
+    border-radius: 25px;
+    padding: 1px 4px 3px;   
+}
+#bottom
+{
+    border-top: 1px solid white;
+}
+a:link {
+    color : white;
+  }
+  a:visited {
+    color :white;
+  }
+  a:hover {
+    color : white;
+  }
+  a:active {
+    color : white;
+  }
