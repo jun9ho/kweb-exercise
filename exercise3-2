@@ -1,0 +1,11 @@
+const getDivisors =x => {
+    const y =Math.sqrt(x)
+    const arr= [];
+    for(let i=1;i<=y;i++){
+        if(x%i==0){arr.push(i);
+                   if(i != Math.sqrt(x))
+                  arr.push(x/i);
+                  }
+    }
+    return arr.sort((first, second) => first - second)
+}
