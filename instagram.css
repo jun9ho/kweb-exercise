@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+/* 헤더 스타일 */
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+#logo {
+  width: 100px;
+  height: 30px;
+  font :bolder
+}
+
+#menu {
+  display: flex;
+  align-items: center;
+}
+
+/* 네비게이션 링크 스타일 */
+.nav-link {
+  color: #000;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.nav-link:hover {
+  opacity: 0.7;
+}
+
+/* 네비게이션 버튼 스타일 */
+.nav-button {
+  background-color: #fb3958;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  opacity: 0.7;
+}
+
+/* 포스트 컨테이너 스타일 */
+#feed-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* 각 포스트 스타일 */
+.post {
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  transition: opacity 0.3s;
+}
+
+.post:hover {
+  opacity: 0.7;
+}
+
+.post-user {
+  font-weight: bold;
+}
+
+.post-description {
+  margin-top: 10px;
+}
+
+.post-image {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.post-likes {
+  margin-top: 10px;
+}
+#btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #fb3958;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  cursor: pointer;
+}

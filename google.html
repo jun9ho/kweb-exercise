@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Page</title>
+  <!-- Bootstrap CSS link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- 외부 CSS 파일 연결 -->
+  <link href="google.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <!-- 메인 글자 -->
+        <div class="main-title rainbow-text">
+          <span class="char1">J</span>
+          <span class="char2">U</span>
+          <span class="char3">N</span>
+          <span class="char4">G</span>
+          <span class="char5">G</span>
+          <span class="char6">L</span>
+          <span class="char7">E</span>
+        </div>
+        <!-- 검색창 -->
+        <form id="searchForm" class="d-flex" action="https://www.google.com/search" method="get">
+          <input type="text" class="form-control me-2" name="q" id="searchInput" placeholder="검색어를 입력하세요">
+          <button type="submit" class="btn btn-primary">검색</button>
+        </form>
+        <!-- 버튼 -->
+        <div class="mt-3">
+          <button type="button" class="btn btn-secondary" id="myGithubBtn" onClick="location.href= 'https://github.com/jun9ho/'">내 깃헙</button>
+          <button type="button" class="btn btn-secondary" id="googleDoodlesBtn" onClick="location.href= 'https://www.google.com/doodles/'">Google Doodles</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

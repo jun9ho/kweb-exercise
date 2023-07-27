@@ -1,0 +1,18 @@
+/* 메인 글자 스타일 */
+.main-title {
+    font-size: 72px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    /* 글자 사이 간격 조정 */
+    letter-spacing: -10px;
+  }
+  
+  /* 각 글자마다 무지개 색상 적용 */
+  .rainbow-text .char1 { color: #4285F4; }
+  .rainbow-text .char2 { color: #EA4335; }
+  .rainbow-text .char3 { color: #FBBC05; }
+  .rainbow-text .char4 { color: #34A853; }
+  .rainbow-text .char5 { color: #4285F4; }
+  .rainbow-text .char6 { color: #EA4335; }
+  .rainbow-text .char7 { color: #FBBC05; }
